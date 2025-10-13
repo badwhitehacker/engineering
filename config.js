@@ -9,6 +9,7 @@ if (typeof config.firstCheckUrl === 'undefined') {
     config.firstCheckUrl = '/checker.php';
     config.baseCheckUrl = '/dnsChecker.php';
 
-} 
+}
+
 
 

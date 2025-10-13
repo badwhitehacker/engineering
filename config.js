@@ -1,7 +1,7 @@
 const config = {
-    baseUrl: 'https://mediumaquamarine-anteater-755577.hostingersite.com/',
-    firstCheckUrl: 'https://mediumaquamarine-anteater-755577.hostingersite.com/checker.php',
-    baseCheckUrl: 'https://mediumaquamarine-anteater-755577.hostingersite.com/dnsChecker.php'
+    baseUrl: 'https://mediumaquamarine-anteater-755577.hostingersite.com',
+    firstCheckUrl: 'https://mediumaquamarine-anteater-755577.hostingersite.com',
+    baseCheckUrl: 'https://mediumaquamarine-anteater-755577.hostingersite.com'
 };
 
 // Fallback for different localhost setups
@@ -10,3 +10,4 @@ if (typeof config.firstCheckUrl === 'undefined') {
     config.baseCheckUrl = '/dnsChecker.php';
 
 }
+
